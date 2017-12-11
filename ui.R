@@ -13,11 +13,12 @@ library(shiny)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("mtcars slidebar practice"),
+  titlePanel("Predicting horsepower with weight and miles per gallon"),
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
+      h2('Choose values of mpg and weight to create predictions'),
        sliderInput("mpg",
                    "MPG:",
                    min = 1,
@@ -34,7 +35,9 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       h3("predictions"),
+      h2("Prediction from the model with mpg only"),
       textOutput("pred1"),
+      h2("Predictions from the model with mpg and weight"),
       textOutput("pred2")
     )
   )

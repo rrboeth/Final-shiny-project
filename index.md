@@ -35,5 +35,37 @@ My application then produces two outputs: the output from the model with only mp
 
 Thank you! 
 
+```r
+library(shiny)
+
+# Define server logic required to draw a histogram
+shinyServer(function(input, output) {
+  
+  model1<-lm(hp~mpg, data = mtcars)
+  model2<-lm(hp~mpg+wt, data = mtcars)
+  
+  model1prediction<-reactive({
+    mpginput<-input$mpg
+    predict(model1, newdata = data.frame(mpg = mpginput))
+  })
+   
+  model2prediction<-reactive({
+    mpginput<-input$mpg
+    wtinput<-input$wt
+    predict(model2,newdata = data.frame(mpg = mpginput, wt = wtinput))
+  })
+  
+  output$pred1<-renderText({
+    model1prediction()
+  })
+  
+  output$pred2<-renderText({
+    model2prediction()
+  })
+  
+    
+  })
+```
+
 
 

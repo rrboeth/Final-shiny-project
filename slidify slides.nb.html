@@ -175,31 +175,192 @@ $(document).ready(function () {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-output-begin eyJkYXRhIjoiQ3JlYXRpbmcgc2xpZGUgZGlyZWN0b3J5IGF0IG15ZGVjay4uLlxuRmluaXNoZWQgY3JlYXRpbmcgc2xpZGUgZGlyZWN0b3J5Li4uXG5Td2l0Y2hpbmcgdG8gc2xpZGUgZGlyZWN0b3J5Li4uXG5Jbml0aWFsaXppbmcgR2l0IFJlcG9cblJlaW5pdGlhbGl6ZWQgZXhpc3RpbmcgR2l0IHJlcG9zaXRvcnkgaW4gL1VzZXJzL3JpbGV5Ym9ldGgvRGVza3RvcC9teWRlY2svLmdpdC9cbltnaC1wYWdlcyA4NmY1NTg5XSBJbml0aWFsIENvbW1pdFxuQ2hlY2tpbmcgb3V0IGdoLXBhZ2VzIGJyYW5jaC4uLlxuQWRkaW5nIC5ub2pla3lsbCB0byByZXBvXG5mYXRhbDogQSBicmFuY2ggbmFtZWQgJ2doLXBhZ2VzJyBhbHJlYWR5IGV4aXN0cy5cbk9wZW5pbmcgc2xpZGUgZGVjay4uLlxuV2FybmluZyBtZXNzYWdlOlxuSW4gcmVhZExpbmVzKGRvYywgLi4uKSA6XG4gIGluY29tcGxldGUgZmluYWwgbGluZSBmb3VuZCBvbiAnbGVhZmxldCBwcmFjdGljZSAyLlJtZCdcblRoZSB3b3JraW5nIGRpcmVjdG9yeSB3YXMgY2hhbmdlZCB0byAvVXNlcnMvcmlsZXlib2V0aC9EZXNrdG9wL215ZGVjayBpbnNpZGUgYSBub3RlYm9vayBjaHVuay4gVGhlIHdvcmtpbmcgZGlyZWN0b3J5IHdpbGwgYmUgcmVzZXQgd2hlbiB0aGUgY2h1bmsgaXMgZmluaXNoZWQgcnVubmluZy4gVXNlIHRoZSBrbml0ciByb290LmRpciBvcHRpb24gaW4gdGhlIHNldHVwIGNodW5rIHRvIGNoYW5nZSB0aGUgdGhlIHdvcmtpbmcgZGlyZWN0b3J5IGZvciBub3RlYm9vayBjaHVua3MuXG4ifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW5zdGFsbC5wYWNrYWdlcyhcImRldnRvb2xzXCIpXG5gYGAifQ== -->
+<pre class="r"><code>install.packages(&quot;devtools&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiSW5zdGFsbGluZyBwYWNrYWdlIGludG8g4oCYL1VzZXJzL3JpbGV5Ym9ldGgvTGlicmFyeS9SLzMuNC9saWJyYXJ54oCZXG4oYXMg4oCYbGli4oCZIGlzIHVuc3BlY2lmaWVkKVxudHJ5aW5nIFVSTCAnaHR0cHM6Ly9jcmFuLnJzdHVkaW8uY29tL2Jpbi9tYWNvc3gvZWwtY2FwaXRhbi9jb250cmliLzMuNC9kZXZ0b29sc18xLjEzLjQudGd6J1xuQ29udGVudCB0eXBlICdhcHBsaWNhdGlvbi94LWd6aXAnIGxlbmd0aCA0MzkwNzggYnl0ZXMgKDQyOCBLQilcbj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG5kb3dubG9hZGVkIDQyOCBLQlxuIn0= -->
+<pre><code>Installing package into ‘/Users/rileyboeth/Library/R/3.4/library’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/macosx/el-capitan/contrib/3.4/devtools_1.13.4.tgz'
+Content type 'application/x-gzip' length 439078 bytes (428 KB)
+==================================================
+downloaded 428 KB</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5UaGUgZG93bmxvYWRlZCBiaW5hcnkgcGFja2FnZXMgYXJlIGluXG5cdC92YXIvZm9sZGVycy9ibC84eTNudHN4bjd3c18wbnBkdDNwMjV4ZGMwMDAwZ24vVC8vUnRtcExmWUZpZi9kb3dubG9hZGVkX3BhY2thZ2VzXG4ifQ== -->
+<pre><code>
+The downloaded binary packages are in
+    /var/folders/bl/8y3ntsxn7ws_0npdt3p25xdc0000gn/T//RtmpLfYFif/downloaded_packages</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShkZXZ0b29scylcbmBgYCJ9 -->
+<pre class="r"><code>require(devtools)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBkZXZ0b29sc1xucGFja2FnZSDigJhkZXZ0b29sc+KAmSB3YXMgYnVpbHQgdW5kZXIgUiB2ZXJzaW9uIDMuNC4yXG4ifQ== -->
+<pre><code>Loading required package: devtools
+package ‘devtools’ was built under R version 3.4.2</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW5zdGFsbF9naXRodWIoXCJzbGlkaWZ5XCIsIFwicmFtbmF0aHZcIilcbmBgYCJ9 -->
+<pre class="r"><code>install_github(&quot;slidify&quot;, &quot;ramnathv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiVXNlcm5hbWUgcGFyYW1ldGVyIGlzIGRlcHJlY2F0ZWQuIFBsZWFzZSB1c2UgcmFtbmF0aHYvc2xpZGlmeVNraXBwaW5nIGluc3RhbGwgb2YgJ3NsaWRpZnknIGZyb20gYSBnaXRodWIgcmVtb3RlLCB0aGUgU0hBMSAoMWRkNDFhMzApIGhhcyBub3QgY2hhbmdlZCBzaW5jZSBsYXN0IGluc3RhbGwuXG4gIFVzZSBgZm9yY2UgPSBUUlVFYCB0byBmb3JjZSBpbnN0YWxsYXRpb25cbiJ9 -->
+<pre><code>Username parameter is deprecated. Please use ramnathv/slidifySkipping install of 'slidify' from a github remote, the SHA1 (1dd41a30) has not changed since last install.
+  Use `force = TRUE` to force installation</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW5zdGFsbF9naXRodWIoXCJzbGlkaWZ5TGlicmFyaWVzXCIsIFwicmFtbmF0aHZcIilcbmBgYCJ9 -->
+<pre class="r"><code>install_github(&quot;slidifyLibraries&quot;, &quot;ramnathv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiVXNlcm5hbWUgcGFyYW1ldGVyIGlzIGRlcHJlY2F0ZWQuIFBsZWFzZSB1c2UgcmFtbmF0aHYvc2xpZGlmeUxpYnJhcmllc1NraXBwaW5nIGluc3RhbGwgb2YgJ3NsaWRpZnlMaWJyYXJpZXMnIGZyb20gYSBnaXRodWIgcmVtb3RlLCB0aGUgU0hBMSAoZGJkMDY1ZjQpIGhhcyBub3QgY2hhbmdlZCBzaW5jZSBsYXN0IGluc3RhbGwuXG4gIFVzZSBgZm9yY2UgPSBUUlVFYCB0byBmb3JjZSBpbnN0YWxsYXRpb25cbiJ9 -->
+<pre><code>Username parameter is deprecated. Please use ramnathv/slidifyLibrariesSkipping install of 'slidifyLibraries' from a github remote, the SHA1 (dbd065f4) has not changed since last install.
+  Use `force = TRUE` to force installation</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShzbGlkaWZ5KVxuYXV0aG9yKFwibXlkZWNrXCIpXG5gYGAifQ== -->
+<pre class="r"><code>library(slidify)
+author(&quot;mydeck&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQ3JlYXRpbmcgc2xpZGUgZGlyZWN0b3J5IGF0IG15ZGVjay4uLlxuQ29weWluZyBmaWxlcyB0byBteWRlY2suLi5cbkZpbmlzaGVkIGNyZWF0aW5nIHNsaWRlIGRpcmVjdG9yeS4uLlxuU3dpdGNoaW5nIHRvIHNsaWRlIGRpcmVjdG9yeS4uLlxuSW5pdGlhbGl6aW5nIEdpdCBSZXBvXG4ifQ== -->
 <pre><code>Creating slide directory at mydeck...
+Copying files to mydeck...
 Finished creating slide directory...
 Switching to slide directory...
-Initializing Git Repo
-Reinitialized existing Git repository in /Users/rileyboeth/Desktop/mydeck/.git/
-[gh-pages 86f5589] Initial Commit
-Checking out gh-pages branch...
+Initializing Git Repo</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiSW5pdGlhbGl6ZWQgZW1wdHkgR2l0IHJlcG9zaXRvcnkgaW4gL1VzZXJzL3JpbGV5Ym9ldGgvRG9jdW1lbnRzL0dpdEh1Yi9GaW5hbC1zaGlueS1wcm9qZWN0L215ZGVjay8uZ2l0L1xuW21hc3RlciAocm9vdC1jb21taXQpIDRjOTEzOWNdIEluaXRpYWwgQ29tbWl0XG4ifQ== -->
+<pre><code>Initialized empty Git repository in /Users/rileyboeth/Documents/GitHub/Final-shiny-project/mydeck/.git/
+[master (root-commit) 4c9139c] Initial Commit</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQ2hlY2tpbmcgb3V0IGdoLXBhZ2VzIGJyYW5jaC4uLlxuU3dpdGNoZWQgdG8gYSBuZXcgYnJhbmNoICdnaC1wYWdlcydcbkFkZGluZyAubm9qZWt5bGwgdG8gcmVwb1xuT3BlbmluZyBzbGlkZSBkZWNrLi4uXG5UaGUgd29ya2luZyBkaXJlY3Rvcnkgd2FzIGNoYW5nZWQgdG8gL1VzZXJzL3JpbGV5Ym9ldGgvRG9jdW1lbnRzL0dpdEh1Yi9GaW5hbC1zaGlueS1wcm9qZWN0L215ZGVjayBpbnNpZGUgYSBub3RlYm9vayBjaHVuay4gVGhlIHdvcmtpbmcgZGlyZWN0b3J5IHdpbGwgYmUgcmVzZXQgd2hlbiB0aGUgY2h1bmsgaXMgZmluaXNoZWQgcnVubmluZy4gVXNlIHRoZSBrbml0ciByb290LmRpciBvcHRpb24gaW4gdGhlIHNldHVwIGNodW5rIHRvIGNoYW5nZSB0aGUgdGhlIHdvcmtpbmcgZGlyZWN0b3J5IGZvciBub3RlYm9vayBjaHVua3MuXG4ifQ== -->
+<pre><code>Checking out gh-pages branch...
+Switched to a new branch 'gh-pages'
 Adding .nojekyll to repo
-fatal: A branch named 'gh-pages' already exists.
 Opening slide deck...
-Warning message:
-In readLines(doc, ...) :
-  incomplete final line found on 'leaflet practice 2.Rmd'
-The working directory was changed to /Users/rileyboeth/Desktop/mydeck inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the the working directory for notebook chunks.</code></pre>
+The working directory was changed to /Users/rileyboeth/Documents/GitHub/Final-shiny-project/mydeck inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the the working directory for notebook chunks.</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-output-begin eyJkYXRhIjoiUGxlYXNlIHNldCBtb2RlIHRvIHNlbGZjb250YWluZWQgYW5kIHJ1biBTbGlkaWZ5XG5UaGlzIHdvdWxkIHBsYWNlIGxpYnJhcnkgZmlsZXMgaW4gdGhlIHNsaWRlIGZvbGRlclxubWFraW5nIGl0IHNlbGYtY29udGFpbmVkXG5bMV0gRkFMU0VcbiJ9 -->
-<pre><code>Please set mode to selfcontained and run Slidify
-This would place library files in the slide folder
-making it self-contained
-[1] FALSE</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucHVibGlzaCh1c2VyID0gXCJycmJvZXRoXCIsIHJlcG8gPSBcIkZpbmFsLXNoaW55LXByb2plY3RcIilcblxuYGBgIn0= -->
+<pre class="r"><code>publish(user = &quot;rrboeth&quot;, repo = &quot;Final-shiny-project&quot;)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQWRkaW5nIC5ub2pla3lsbCB0byB5b3VyIHJlcG8uLi5cblB1Ymxpc2hpbmcgZGVjayB0byBycmJvZXRoL0ZpbmFsLXNoaW55LXByb2plY3RcbiJ9 -->
+<pre><code>Adding .nojekyll to your repo...
+Publishing deck to rrboeth/Final-shiny-project</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiW21hc3RlciAwNWQ3MmM5XSBwdWJsaXNoaW5nIGRlY2tcbiAxMTAgZmlsZXMgY2hhbmdlZCwgOTc5MCBpbnNlcnRpb25zKCspLCAzNyBkZWxldGlvbnMoLSlcbiBjcmVhdGUgbW9kZSAxMDA2NDQgLm5vamVreWxsXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGluZGV4Lm1kXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL2NvbmZpZy55bWxcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9pbWFnZXMvY29sb3JiYXIucG5nXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL2RlZmF1bHQvaW1hZ2VzL2dvb2dsZS1sb2dvLXNtYWxsLnBuZ1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy9kZWZhdWx0L2ltYWdlcy9nb29nbGUtbG9nby5wbmdcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9pbWFnZXMvZ29vZ2xlaW8tbG9nby5wbmdcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9pbWFnZXMvbWNnaWxsLWxvZ28tc21hbGwucG5nXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL2RlZmF1bHQvaW1hZ2VzL21jZ2lsbC1sb2dvLmpwZ1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy9kZWZhdWx0L2ltYWdlcy9zbGlkaWZ5LWxvZy5wbmdcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9pbWFnZXMvc2xpZGlmeS1sb2dvLXNtYWxsLnBuZ1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy9kZWZhdWx0L2xheW91dHMvZGVjay5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL2RlZmF1bHQvbGF5b3V0cy9oZWFkLmh0bWxcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9sYXlvdXRzL3NsaWRlLmh0bWxcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9zbGlkZXMuanNcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvZGVmYXVsdC9zbGlkZXMubWluLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL2RlZmF1bHQvc3R5bGVzLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy9sYXlvdXRzL2RlY2suaHRtbFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy9sYXlvdXRzL3NsaWRlLmh0bWxcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaHRtbDVzbGlkZXMvcGFydGlhbHMvaGVhZC5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL3V1bG0vaW1hZ2VzL2hlYWRlcl9zYW1wbGUuanBnXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL3V1bG0vc2xpZGVzLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL3V1bG0vc3R5bGVzLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9odG1sNXNsaWRlcy91dWxtL3V1bG0uY3NzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2h0bWw1c2xpZGVzL3V1bG0vdXVsbV9sb2dvLnN2Z1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvUkVBRE1FLm1kXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9jb25maWcueW1sXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9jc3MvZGVmYXVsdC5jc3NcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2Nzcy9mb250cy5jc3NcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2Nzcy9waG9uZS5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2Nzcy9zbGlkaWZ5LmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvaW1hZ2VzL2dvb2dsZV9kZXZlbG9wZXJzX2ljb25fMTI4LnBuZ1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvaW1hZ2VzL2lvMjAxMl9sb2dvLnBuZ1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvaGFtbWVyLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9tb2Rlcm5penIuY3VzdG9tLjQ1Mzk0LmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9vcmRlci5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcG9seWZpbGxzL2NsYXNzTGlzdC5taW4uanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3BvbHlmaWxscy9kYXRhc2V0Lm1pbi5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcG9seWZpbGxzL2hpc3RvcnkubWluLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLWFwb2xsby5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcHJldHRpZnkvbGFuZy1jbGouanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmctY3NzLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLWdvLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLWhzLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLWxpc3AuanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmctbHVhLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLW1sLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLW4uanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmctcHJvdG8uanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmctc2NhbGEuanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmctc3FsLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLXRleC5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcHJldHRpZnkvbGFuZy12Yi5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcHJldHRpZnkvbGFuZy12aGRsLmpzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9sYW5nLXdpa2kuanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmcteHEuanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3ByZXR0aWZ5L2xhbmcteWFtbC5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcHJldHRpZnkvcHJldHRpZnkuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNzU1IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9qcy9wcmV0dGlmeS9wcmV0dGlmeS5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvcmVxdWlyZS0xLjAuOC5taW4uanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3NsaWRlLWNvbnRyb2xsZXIuanNcbiBjcmVhdGUgbW9kZSAxMDA3NTUgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3NsaWRlLWRlY2suanNcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL2pzL3NsaWRlX2NvbmZpZy5qc1xuIGNyZWF0ZSBtb2RlIDEwMDc1NSBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvanMvc2xpZGVzLmpzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9sYXlvdXRzL2RlZmF1bHQuaHRtbFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvbGF5b3V0cy9zbGlkZS5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9sYXlvdXRzL3R3b2NvbC5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9sYXlvdXRzL3ZjZW50ZXIuaHRtbFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvcGFydGlhbHMvaGVhZC5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9wYXJ0aWFscy9sb2dvc2xpZGUuaHRtbFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvZnJhbWV3b3Jrcy9pbzIwMTIvcGFydGlhbHMvcGFnaW5hdGlvbi5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9mcmFtZXdvcmtzL2lvMjAxMi9wYXJ0aWFscy90aXRsZXNsaWRlLmh0bWxcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2ZyYW1ld29ya3MvaW8yMDEyL3BhcnRpYWxzL3RvYy5odG1sXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL1JFQURNRS5tZFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MvYXJ0YS5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL2FzY2V0aWMuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9icm93bl9wYXBlci5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL2Jyb3duX3BhcGVyc3EucG5nXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9kYXJrLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MvZGVmYXVsdC5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL2Zhci5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL2dpdGh1Yi5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL2dvb2dsZWNvZGUuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9oZW1pc3UtbGlnaHQuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9pZGVhLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MvaXJfYmxhY2suY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9tYWd1bGEuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9tb25va2FpLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MvcG9qb2FxdWUuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9wb2pvYXF1ZS5qcGdcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL3NjaG9vbF9ib29rLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3Mvc2Nob29sX2Jvb2sucG5nXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy9zb2xhcml6ZWRfZGFyay5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL3NvbGFyaXplZF9saWdodC5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL3N1bmJ1cnN0LmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MvdG9tb3Jyb3cuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy90b21vcnJvd19uaWdodC5jc3NcbiBjcmVhdGUgbW9kZSAxMDA2NDQgbGlicmFyaWVzL2hpZ2hsaWdodGVycy9oaWdobGlnaHQuanMvY3NzL3ZzLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9jc3MveGNvZGUuY3NzXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IGxpYnJhcmllcy9oaWdobGlnaHRlcnMvaGlnaGxpZ2h0LmpzL2Nzcy96ZW5idXJuLmNzc1xuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9oaWdobGlnaHQuanMuaHRtbFxuIGNyZWF0ZSBtb2RlIDEwMDY0NCBsaWJyYXJpZXMvaGlnaGxpZ2h0ZXJzL2hpZ2hsaWdodC5qcy9oaWdobGlnaHQucGFjay5qc1xuIGNyZWF0ZSBtb2RlIDE2MDAwMCBteWRlY2tcbiBjcmVhdGUgbW9kZSAxMDA2NDQgcnNjb25uZWN0L2RvY3VtZW50cy9pbmRleC5SbWQvcnB1YnMuY29tL3JwdWJzL0RvY3VtZW50LmRjZlxuIGNyZWF0ZSBtb2RlIDEwMDY0NCByc2Nvbm5lY3QvZG9jdW1lbnRzL2luZGV4LlJtZC9ycHVicy5jb20vcnB1YnMvUHVibGlzaCBEb2N1bWVudC5kY2ZcbiBjcmVhdGUgbW9kZSAxMDA2NDQgcnNjb25uZWN0L3NoaW55YXBwcy5pby9yaWxleXByb2plY3RzL0ZpbmFsLXNoaW55LXByb2plY3QuZGNmXG4gY3JlYXRlIG1vZGUgMTAwNjQ0IHNsaWRpZnkgc2xpZGVzLlJtZFxuIn0= -->
+<pre><code>[master 05d72c9] publishing deck
+ 110 files changed, 9790 insertions(+), 37 deletions(-)
+ create mode 100644 .nojekyll
+ create mode 100644 index.md
+ create mode 100644 libraries/frameworks/html5slides/config.yml
+ create mode 100755 libraries/frameworks/html5slides/default/images/colorbar.png
+ create mode 100644 libraries/frameworks/html5slides/default/images/google-logo-small.png
+ create mode 100644 libraries/frameworks/html5slides/default/images/google-logo.png
+ create mode 100755 libraries/frameworks/html5slides/default/images/googleio-logo.png
+ create mode 100644 libraries/frameworks/html5slides/default/images/mcgill-logo-small.png
+ create mode 100644 libraries/frameworks/html5slides/default/images/mcgill-logo.jpg
+ create mode 100644 libraries/frameworks/html5slides/default/images/slidify-log.png
+ create mode 100644 libraries/frameworks/html5slides/default/images/slidify-logo-small.png
+ create mode 100644 libraries/frameworks/html5slides/default/layouts/deck.html
+ create mode 100644 libraries/frameworks/html5slides/default/layouts/head.html
+ create mode 100644 libraries/frameworks/html5slides/default/layouts/slide.html
+ create mode 100644 libraries/frameworks/html5slides/default/slides.js
+ create mode 100644 libraries/frameworks/html5slides/default/slides.min.js
+ create mode 100755 libraries/frameworks/html5slides/default/styles.css
+ create mode 100644 libraries/frameworks/html5slides/layouts/deck.html
+ create mode 100644 libraries/frameworks/html5slides/layouts/slide.html
+ create mode 100644 libraries/frameworks/html5slides/partials/head.html
+ create mode 100755 libraries/frameworks/html5slides/uulm/images/header_sample.jpg
+ create mode 100755 libraries/frameworks/html5slides/uulm/slides.js
+ create mode 100755 libraries/frameworks/html5slides/uulm/styles.css
+ create mode 100755 libraries/frameworks/html5slides/uulm/uulm.css
+ create mode 100755 libraries/frameworks/html5slides/uulm/uulm_logo.svg
+ create mode 100644 libraries/frameworks/io2012/README.md
+ create mode 100644 libraries/frameworks/io2012/config.yml
+ create mode 100755 libraries/frameworks/io2012/css/default.css
+ create mode 100755 libraries/frameworks/io2012/css/fonts.css
+ create mode 100755 libraries/frameworks/io2012/css/phone.css
+ create mode 100644 libraries/frameworks/io2012/css/slidify.css
+ create mode 100755 libraries/frameworks/io2012/images/google_developers_icon_128.png
+ create mode 100755 libraries/frameworks/io2012/images/io2012_logo.png
+ create mode 100755 libraries/frameworks/io2012/js/hammer.js
+ create mode 100755 libraries/frameworks/io2012/js/modernizr.custom.45394.js
+ create mode 100755 libraries/frameworks/io2012/js/order.js
+ create mode 100755 libraries/frameworks/io2012/js/polyfills/classList.min.js
+ create mode 100755 libraries/frameworks/io2012/js/polyfills/dataset.min.js
+ create mode 100755 libraries/frameworks/io2012/js/polyfills/history.min.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-apollo.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-clj.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-css.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-go.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-hs.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-lisp.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-lua.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-ml.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-n.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-proto.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-scala.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-sql.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-tex.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-vb.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-vhdl.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-wiki.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-xq.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/lang-yaml.js
+ create mode 100755 libraries/frameworks/io2012/js/prettify/prettify.css
+ create mode 100755 libraries/frameworks/io2012/js/prettify/prettify.js
+ create mode 100755 libraries/frameworks/io2012/js/require-1.0.8.min.js
+ create mode 100755 libraries/frameworks/io2012/js/slide-controller.js
+ create mode 100755 libraries/frameworks/io2012/js/slide-deck.js
+ create mode 100644 libraries/frameworks/io2012/js/slide_config.js
+ create mode 100755 libraries/frameworks/io2012/js/slides.js
+ create mode 100644 libraries/frameworks/io2012/layouts/default.html
+ create mode 100644 libraries/frameworks/io2012/layouts/slide.html
+ create mode 100644 libraries/frameworks/io2012/layouts/twocol.html
+ create mode 100644 libraries/frameworks/io2012/layouts/vcenter.html
+ create mode 100644 libraries/frameworks/io2012/partials/head.html
+ create mode 100644 libraries/frameworks/io2012/partials/logoslide.html
+ create mode 100644 libraries/frameworks/io2012/partials/pagination.html
+ create mode 100644 libraries/frameworks/io2012/partials/titleslide.html
+ create mode 100644 libraries/frameworks/io2012/partials/toc.html
+ create mode 100644 libraries/highlighters/highlight.js/README.md
+ create mode 100644 libraries/highlighters/highlight.js/css/arta.css
+ create mode 100644 libraries/highlighters/highlight.js/css/ascetic.css
+ create mode 100644 libraries/highlighters/highlight.js/css/brown_paper.css
+ create mode 100644 libraries/highlighters/highlight.js/css/brown_papersq.png
+ create mode 100644 libraries/highlighters/highlight.js/css/dark.css
+ create mode 100644 libraries/highlighters/highlight.js/css/default.css
+ create mode 100644 libraries/highlighters/highlight.js/css/far.css
+ create mode 100644 libraries/highlighters/highlight.js/css/github.css
+ create mode 100644 libraries/highlighters/highlight.js/css/googlecode.css
+ create mode 100644 libraries/highlighters/highlight.js/css/hemisu-light.css
+ create mode 100644 libraries/highlighters/highlight.js/css/idea.css
+ create mode 100644 libraries/highlighters/highlight.js/css/ir_black.css
+ create mode 100644 libraries/highlighters/highlight.js/css/magula.css
+ create mode 100644 libraries/highlighters/highlight.js/css/monokai.css
+ create mode 100644 libraries/highlighters/highlight.js/css/pojoaque.css
+ create mode 100644 libraries/highlighters/highlight.js/css/pojoaque.jpg
+ create mode 100644 libraries/highlighters/highlight.js/css/school_book.css
+ create mode 100644 libraries/highlighters/highlight.js/css/school_book.png
+ create mode 100644 libraries/highlighters/highlight.js/css/solarized_dark.css
+ create mode 100644 libraries/highlighters/highlight.js/css/solarized_light.css
+ create mode 100644 libraries/highlighters/highlight.js/css/sunburst.css
+ create mode 100644 libraries/highlighters/highlight.js/css/tomorrow.css
+ create mode 100644 libraries/highlighters/highlight.js/css/tomorrow_night.css
+ create mode 100644 libraries/highlighters/highlight.js/css/vs.css
+ create mode 100644 libraries/highlighters/highlight.js/css/xcode.css
+ create mode 100644 libraries/highlighters/highlight.js/css/zenburn.css
+ create mode 100644 libraries/highlighters/highlight.js/highlight.js.html
+ create mode 100644 libraries/highlighters/highlight.js/highlight.pack.js
+ create mode 160000 mydeck
+ create mode 100644 rsconnect/documents/index.Rmd/rpubs.com/rpubs/Document.dcf
+ create mode 100644 rsconnect/documents/index.Rmd/rpubs.com/rpubs/Publish Document.dcf
+ create mode 100644 rsconnect/shinyapps.io/rileyprojects/Final-shiny-project.dcf
+ create mode 100644 slidify slides.Rmd</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZXJyb3I6IHNyYyByZWZzcGVjIGdoLXBhZ2VzIGRvZXMgbm90IG1hdGNoIGFueS5cbmVycm9yOiBmYWlsZWQgdG8gcHVzaCBzb21lIHJlZnMgdG8gJ2dpdEBnaXRodWIuY29tOnJyYm9ldGgvRmluYWwtc2hpbnktcHJvamVjdCdcbllvdSBjYW4gbm93IHZpZXcgeW91ciBzbGlkZSBkZWNrIGF0IGh0dHA6Ly9ycmJvZXRoLmdpdGh1Yi5jb20vRmluYWwtc2hpbnktcHJvamVjdFxuIn0= -->
+<pre><code>error: src refspec gh-pages does not match any.
+error: failed to push some refs to 'git@github.com:rrboeth/Final-shiny-project'
+You can now view your slide deck at http://rrboeth.github.com/Final-shiny-project</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 

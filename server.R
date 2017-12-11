@@ -27,10 +27,12 @@ shinyServer(function(input, output) {
   })
   
   output$pred1<-renderText({
+    h3("model prediction with mpg only")
     model1prediction()
   })
   
   output$pred2<-renderText({
+    h3("model prediction with weight and mpg")
     model2prediction()
   })
   
