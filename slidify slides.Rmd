@@ -1,0 +1,19 @@
+---
+Date: "12/11/17"
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+install.packages("devtools")
+require(devtools)
+install_github("slidify", "ramnathv")
+install_github("slidifyLibraries", "ramnathv")
+library(slidify)
+author("mydeck")
+```
+
+
+```{r}
+publish(user = "rrboeth", repo = "Final-shiny-project")
+```
